@@ -1,0 +1,22 @@
+{
+  "name": "sports-news",
+  "version": "0.1.0",
+  "description": "sports news page using typescript",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamCsordas21/sports-news.git"
+  },
+  "author": "Adam Csordas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamCsordas21/sports-news/issues"
+  },
+  "homepage": "https://adamcsordas21.github.io/sports-news/",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
