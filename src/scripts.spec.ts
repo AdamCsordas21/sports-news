@@ -1,6 +1,4 @@
-const {
-  createArticle
-} = require('./scripts');
+import { createArticle } from './scripts';
 
 describe('articles', () => {
   it('creates an article with title', () => {
