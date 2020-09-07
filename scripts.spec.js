@@ -3,13 +3,13 @@ const {
 } = require('./scripts');
 
 describe('articles', () => {
-  it('creates an article', () => {
+  it('creates an article with title', () => {
     // given
     
     // when
-    const actual = createArticle('hello') 
+    const actual = createArticle('news title')
     // then
-    const expected = '<article>hello</article>'
+    const expected = '<article><h2>news title</h2></article>'
     expect(actual).toEqual(expected)
   })
 })
