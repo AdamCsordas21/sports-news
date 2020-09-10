@@ -2,4 +2,4 @@
 
 version=$(date +%y%m%d_%H%M%S)
 
-sed "s/{{VERSION}}/$version/g" ./index.html > ./dist/index.html
+sed "s/{{VERSION}}/$version/g" ./index.html > ./docs/index.html
