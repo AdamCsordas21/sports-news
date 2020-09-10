@@ -1,9 +1,15 @@
-export function createArticle(title: string, date: string, paragraphs: string[]): string {
+export interface Article {
+  title: string
+  date: string
+  contents: string[]
+}
+
+export function createArticle(article: Article): string {
   return `<article>
-      <h2>${title}</h2>
-      <h3>${date}</h3>
+      <h2>${article.title}</h2>
+      <h3>${article.date}</h3>
       <section>
-        ${paragraphs.map(p => `<p>${p}</p>`).join('')}
+        ${article.contents.map(p => `<p>${p}</p>`).join('')}
       </section>
     </article>`
 }

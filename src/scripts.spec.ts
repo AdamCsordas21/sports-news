@@ -1,11 +1,15 @@
-import { createArticle } from './scripts';
+import { createArticle, Article } from './scripts';
 
 describe('articles', () => {
   it('creates an article with title, date and paragraphs', () => {
     // given
-    
+    const article: Article = {
+      title: 'news title',
+      date: 'date',
+      contents: ['paragraph 1', 'paragraph 2']
+    }
     // when
-    const actual = createArticle('news title', 'date', ['paragraph 1', 'paragraph 2'])
+    const actual = createArticle(article)
     // then
     const expected = `<article>
       <h2>news title</h2>
