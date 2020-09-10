@@ -13,3 +13,7 @@ export function createArticle({ title, date, contents }: Article): string {
       </section>
     </article>`
 }
+
+export function listArticles(articles: Article[]): string {
+  return articles.map(a => createArticle(a)).join('')
+}
