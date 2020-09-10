@@ -1,4 +1,4 @@
-import { createArticle, Article, listArticles } from './scripts';
+import { createArticle, Article, listArticles } from './articles';
 
 describe('articles', () => {
   it('creates an article with title, date and paragraphs', () => {
