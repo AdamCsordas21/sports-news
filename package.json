@@ -4,7 +4,7 @@
   "description": "sports news page using typescript",
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "build": "jest && webpack && scripts/bump.sh",
     "test": "jest"
   },
   "repository": {
