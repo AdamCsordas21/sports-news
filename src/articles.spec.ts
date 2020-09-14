@@ -13,7 +13,7 @@ describe('articles', () => {
     // then
     const expected = `<article>
       <h2>news title</h2>
-      <h3>date</h3>
+      <h3><time>date</time></h3>
       <section>
         <p>paragraph 1</p><p>paragraph 2</p>
       </section>

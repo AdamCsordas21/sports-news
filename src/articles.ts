@@ -7,7 +7,7 @@ export interface Article {
 export function createArticle({ title, date, contents }: Article): string {
   return `<article>
       <h2>${title}</h2>
-      <h3>${date}</h3>
+      <h3><time>${date}</time></h3>
       <section>
         ${contents.map(p => `<p>${p}</p>`).join('')}
       </section>
