@@ -21,7 +21,7 @@ describe('articles', () => {
     expect(actual).toEqual(expected)
   })
 
-  it('lists all articles', () => {
+  it('lists all articles with <time> element', () => {
     // given
     const articles: Article[] = [
       {
@@ -40,13 +40,13 @@ describe('articles', () => {
     // then
     const expected = `<article>
       <h2>news title 1</h2>
-      <h3>date 1</h3>
+      <h3><time>date 1</time></h3>
       <section>
         <p>paragraph 1</p>
       </section>
     </article><article>
       <h2>news title 2</h2>
-      <h3>date 2</h3>
+      <h3><time>date 2</time></h3>
       <section>
         <p>paragraph 2</p>
       </section>
