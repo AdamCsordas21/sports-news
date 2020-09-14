@@ -17,3 +17,4 @@ export function createArticle({ title, date, contents }: Article): string {
 export function listArticles(articles: Article[]): string {
   return articles.map(createArticle).join('')
 }
+
