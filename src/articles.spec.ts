@@ -13,7 +13,7 @@ describe('articles', () => {
     // then
     const expected = `<article>
       <h2>news title</h2>
-      <h3><time datetime="2020-06-22">2020-06-22</time></h3>
+      <h3><time datetime="2020-06-22">22 June 2020</time></h3>
       <section>
         <p>paragraph 1</p><p>paragraph 2</p>
       </section>
@@ -40,13 +40,13 @@ describe('articles', () => {
     // then
     const expected = `<article>
       <h2>news title 1</h2>
-      <h3><time datetime="2020-06-21">2020-06-21</time></h3>
+      <h3><time datetime="2020-06-21">21 June 2020</time></h3>
       <section>
         <p>paragraph 1</p>
       </section>
     </article><article>
       <h2>news title 2</h2>
-      <h3><time datetime="2021-06-21">2021-06-21</time></h3>
+      <h3><time datetime="2021-06-21">21 June 2021</time></h3>
       <section>
         <p>paragraph 2</p>
       </section>
