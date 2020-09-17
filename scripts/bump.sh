@@ -8,4 +8,3 @@ if [ "$?" -eq "0" ]; then
   echo '{{VERSION}} not replaced!'
   exit 1
 fi
-git add docs/index.html
